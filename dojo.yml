@@ -30,19 +30,19 @@ modules:
 
       - import:
           dojo: intro-to-cybersecurity
-          module: cryptography
+          module: binary-exploitation
           challenge: lose-variable-w
         name: Task 4
 
       - import:
           dojo: intro-to-cybersecurity
-          module: cryptography
+          module: binary-exploitation
           challenge: control-hijack-w
         name: Task 5
 
       - import:
           dojo: intro-to-cybersecurity
-          module: cryptography
+          module: binary-exploitation
           challenge: var-control-w
         name: Task 6
 
