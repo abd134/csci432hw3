@@ -1,54 +1,49 @@
-id: homework1
-name: CSCI 43200 Homework1
+id: homework3
+name: CSCI 43200 Homework3
 type: topic
 
 modules:
 
-  - id: "crypto"
-    name: Cryptography
-    description: Homework 1 for CSCI 43200 Purdue Spring 2025
+  - id: "softsec"
+    name: Web/Software Security
+    description: Homework 3 for CSCI 43200 Purdue Spring 2025
 
     challenges:
 
       - import:
           dojo: intro-to-cybersecurity
-          module: cryptography
-          challenge: level-4
+          module: web-security
+          challenge: path-traversal-1
         name: Task 1
 
       - import:
           dojo: intro-to-cybersecurity
-          module: cryptography
-          challenge: cpa
+          module: web-security
+          challenge: path-traversal-2
         name: Task 2
 
       - import:
           dojo: intro-to-cybersecurity
-          module: cryptography
-          challenge: aes-cbc
+          module: binary-exploitation
+          challenge: first-overflow-w
         name: Task 3
 
       - import:
           dojo: intro-to-cybersecurity
           module: cryptography
-          challenge: aes-cbc-corrupt
+          challenge: lose-variable-w
         name: Task 4
 
       - import:
           dojo: intro-to-cybersecurity
           module: cryptography
-          challenge: aes-cbc-corrupt-resize
+          challenge: control-hijack-w
         name: Task 5
 
       - import:
           dojo: intro-to-cybersecurity
           module: cryptography
-          challenge: aes-cbc-poa
+          challenge: var-control-w
         name: Task 6
 
-      - import:
-          dojo: intro-to-cybersecurity
-          module: cryptography
-          challenge: level-9
-        name: Task 7
     
