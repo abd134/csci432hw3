@@ -6,7 +6,7 @@ modules:
 
   - id: "softsec"
     name: Web/Software Security
-    description: Homework 3 for CSCI 43200 Purdue Spring 2025
+    description: Homework 3 for CSCI 43200 Purdue Spring 2026
 
     challenges:
 
